@@ -43,12 +43,12 @@ public class PlayerMovment : MonoBehaviour
         if (driX > 0f)
         {
             state = MovmentState.running;
-            Sprite.flipX = false;
+            Sprite.flipX = true;
         }
         else if (driX < 0f)
         {
             state = MovmentState.running;
-            Sprite.flipX= true;
+            Sprite.flipX= false;
         }
         else
         {
